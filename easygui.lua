@@ -183,11 +183,10 @@ function Gui:newInput(label, width, height, callback)
     return group
 end
 
----TODO add a "button" which allows you to set values from a callback. This will allow us to write to quickly save player pos and other things...
 ---@alias FormElementName "input" | "checkbox" | "formButton" | "submit"
 
 ---@class FormElement
----@field name string
+---@field name string 
 ---@field type FormElementName
 ---@field label string
 ---@field width integer
